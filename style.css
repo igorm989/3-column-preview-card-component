@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+    max-width: 1440px;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.container {
+    padding: 80px 20px;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.card {
+    padding: 55px;
+}
+
+.card img {
+    margin-bottom: 25px;
+}
+
+.card h1 {
+    margin-bottom: 25px;
+    font-size: 2.5rem;
+}
+
+.card p {
+    margin-bottom: 30px;
+    line-height: 1.6;
+    font-size: 0.9rem;
+}
+
+.btn {
+    font-weight: 400;
+    background-color:hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    border-radius: 30px;
+    padding: 0.8rem 1.9rem;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+
+body h1 {
+    font-family: "Big Shoulders Display";
+    color:hsl(0, 0%, 95%);
+}
+
+body p {
+    font-family: "Lexend Deca"; 
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.firstcard .btn {
+    color:hsl(31, 77%, 52%)
+    
+}
+
+.secondcard .btn {
+    color:hsl(184, 100%, 22%)
+}
+
+.thirdcard .btn {
+    color:hsl(179, 100%, 13%);
+}
+
+.btn:hover {
+    background-color: transparent;
+    color:hsl(0, 0%, 95%)
+}
+
+
+.firstcard {
+    background-color:hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.secondcard {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.thirdcard {
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media (min-width: 992px) {
+    .row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        max-width: 880px;
+        margin: auto;
+    }
+
+    .firstcard {
+        border-radius: 10px 0 0 10px;
+    }
+
+    .thirdcard {
+        border-radius: 0 10px 10px 0;
+    }
+
+    .card {
+        padding: 45px;
+        width: 325px
+    }
+    
+    .card p {
+       margin-bottom: 80px;
+     
+    }
+     
+    .btn {
+        margin-bottom: 5px;
+    }
+}
